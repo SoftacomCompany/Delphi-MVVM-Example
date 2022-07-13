@@ -1,0 +1,37 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'SampleMVVM'
+  ClientHeight = 339
+  ClientWidth = 764
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  inline ControllerFrame1: TControllerFrame
+    Align = Center
+    Size.Width = 742.000000000000000000
+    Size.Height = 295.000000000000000000
+    Size.PlatformDefault = False
+    inherited FlowLayout: TFlowLayout
+      inherited AtomFrame1: TAtomFrame
+        inherited BgRect: TRectangle
+          inherited GridPanelLayout1: TGridPanelLayout
+            ControlCollection = <
+              item
+                Column = 0
+                Control = ControllerFrame1.AtomFrame1.Caption
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = ControllerFrame1.AtomFrame1.Image
+                Row = 1
+              end>
+          end
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,109 @@
+object ControllerFrame: TControllerFrame
+  Size.Width = 742.000000000000000000
+  Size.Height = 295.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout: TFlowLayout
+    Align = Center
+    Size.Width = 677.000000000000000000
+    Size.Height = 236.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    inline AtomFrame1: TAtomFrame
+      Align = Center
+      HitTest = False
+      Size.Width = 225.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      inherited BgRect: TRectangle
+        Size.Height = 231.000000000000000000
+        inherited GridPanelLayout1: TGridPanelLayout
+          Size.Height = 231.000000000000000000
+          ControlCollection = <
+            item
+              Column = 0
+              Control = AtomFrame1.Caption
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = AtomFrame1.Image
+              Row = 1
+            end>
+          inherited Caption: TLabel
+            Size.Height = 23.100000381469730000
+          end
+          inherited Image: TImage
+            Size.Height = 197.899993896484400000
+          end
+        end
+      end
+    end
+    inline AtomFrame2: TAtomFrame
+      Align = Center
+      HitTest = False
+      Size.Width = 225.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      inherited BgRect: TRectangle
+        Size.Height = 231.000000000000000000
+        inherited GridPanelLayout1: TGridPanelLayout
+          Size.Height = 231.000000000000000000
+          ControlCollection = <
+            item
+              Column = 0
+              Control = AtomFrame1.Caption
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = AtomFrame1.Image
+              Row = 1
+            end>
+          inherited Caption: TLabel
+            Size.Height = 23.100000381469730000
+          end
+          inherited Image: TImage
+            Position.X = 6.000000000000000000
+            Position.Y = 23.000000000000000000
+            Size.Height = 199.000000000000000000
+          end
+        end
+      end
+    end
+    inline AtomFrame3: TAtomFrame
+      Align = Center
+      HitTest = False
+      Size.Width = 225.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      inherited BgRect: TRectangle
+        Size.Height = 231.000000000000000000
+        inherited GridPanelLayout1: TGridPanelLayout
+          Size.Height = 231.000000000000000000
+          ControlCollection = <
+            item
+              Column = 0
+              Control = AtomFrame1.Caption
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = AtomFrame1.Image
+              Row = 1
+            end>
+          inherited Caption: TLabel
+            Size.Height = 23.100000381469730000
+          end
+          inherited Image: TImage
+            Position.X = 4.000000000000000000
+            Position.Y = 24.000000000000000000
+            Size.Height = 198.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end
